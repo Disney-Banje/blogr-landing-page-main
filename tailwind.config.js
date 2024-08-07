@@ -15,6 +15,10 @@ export default {
       // Background gradient - body
       'veryDarkBlue': 'hsl(237, 17%, 21%)',
       'veryDarkDesaturedBlue': 'hsl(237, 23%, 32%)',
+      'text': 'hsl(0, 0%, 100%)',
+      'footer-text': 'hsl(240, 2%, 79%)',
+      'body-copy': 'hsl(207, 13%, 34%)',
+      'footer-background': 'hsl(240, 10%, 16%)',
     },
     extend: {},
   },
