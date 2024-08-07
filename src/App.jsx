@@ -7,7 +7,7 @@ import SectionTwo from "./components/SectionTwo";
 
 function App() {
   return (
-    <div className="text-base text-body-copy font-normal">
+    <div className="text-base lg:text-lg text-body-copy font-normal overflow-hidden">
       <Navigation />
       <main>
         <HeroSection />

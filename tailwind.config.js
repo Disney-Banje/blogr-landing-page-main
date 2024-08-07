@@ -5,6 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1440px'
+    },
     colors: {
       'lightRedCtaText': 'hsl(356, 100%, 66%)',
       'veryLightRedCtaHoverBg': 'hsl(355, 100%, 74%)',
