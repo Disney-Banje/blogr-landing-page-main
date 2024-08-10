@@ -1,5 +1,6 @@
 import { menuItems } from "../Data/menuItems";
 import Button from "./Button";
+import Dropdown from "./Dropdown";
 
 function Navigation() {
     return (
@@ -14,11 +15,12 @@ function Navigation() {
                 <nav className="hidden md:flex justify-between flex-1 items-center">
                     <ul className="flex gap-5 text-text">
                         {menuItems.map((item, index) => (
-                            <li key={index}>
+                            <li key={index} className="relative">
                                 <a href="#" className="flex gap-2 items-center hover:underline hover:underline-offset-2">
                                     <span>{item.page}</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>
                                 </a>
+                                <Dropdown list={item.links } />
                             </li>
                         ))}
                     </ul>
