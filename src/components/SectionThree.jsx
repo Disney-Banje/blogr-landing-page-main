@@ -1,11 +1,11 @@
 
 function SectionThree() {
     return (
-        <section className="my-20 text-center flex flex-col justify-center items-center relative h-screen">
-            <div className="mx-6 max-w-7xl md:grid md:grid-cols-2">
-                <picture>
+        <section className="my-20  md:my-48 text-center flex flex-col justify-center items-center">
+            <div className="mx-6 max-w-7xl grid md:grid-cols-2 relative">
+                <picture className="justify-self-center">
                     <source srcSet="./src/assets/images/illustration-laptop-mobile.svg" media="(max-width: 768px)" />
-                    <img src="./src/assets/images/illustration-laptop-desktop.svg" alt="illustration laptop" className="md:absolute md:-left-80 md:bottom-0 md:top-0 md:my-auto"/>
+                    <img src="./src/assets/images/illustration-laptop-desktop.svg" alt="illustration laptop" className="md:absolute md:-left-[400px] md:bottom-0 md:top-0 md:my-auto"/>
                 </picture>
 
                 <div className="md:text-start md:flex md:flex-col md:gap-6">

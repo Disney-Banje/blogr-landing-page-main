@@ -1,13 +1,16 @@
 
 function SectionOne() {
     return (
-        <section className="mt-20 mb-48 text-center flex justify-center items-center h-screen relative">
-           <div className="mx-6 md:grid md:grid-cols-2 md:gap-8 max-w-7xl">
-            <h2 className="mb-8 text-3xl md:text-4xl lg:text-5xl font-medium text-headingsColor md:col-span-2">Designed for the future</h2>
-                <picture className="md:col-start-2 md:row-start-2">
-                    <source srcSet="./src/assets/images/illustration-editor-mobile.svg" media="(max-width: 768px)" />
-                    <img src="./src/assets/images/illustration-editor-desktop.svg" alt="illustration editor"  className="md:absolute md:bottom-0 md:top-0 md:my-auto"/>
-                </picture>
+        <section className="mt-20 mb-80 text-center flex justify-center items-center">
+           <div className="mx-6 grid md:grid-cols-2 md:justify-between md:items-center max-w-7xl relative">
+            <h2 className="mb-12 text-3xl font-medium text-headingsColor md:col-span-2">Designed for the future</h2>
+                <div className="md:col-start-2 md:row-start-2 self-center justify-self-center">
+                    <picture>
+                        <source srcSet="./src/assets/images/illustration-editor-mobile.svg" media="(max-width: 768px)" />
+                        <img src="./src/assets/images/illustration-editor-desktop.svg" alt="illustration editor"  className="md:absolute md:bottom-0 md:top-0 md:my-auto md:-right-96"/>
+                        
+                    </picture>
+                </div>
                 
                 <div className="md:row-start-2 md:col-start-1 md:text-start md:flex flex-col gap-12">
                     <article className="my-8">
