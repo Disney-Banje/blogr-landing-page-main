@@ -15,7 +15,7 @@ function Navigation() {
                     <ul className="flex gap-5 text-text">
                         {menuItems.map((item, index) => (
                             <li key={index}>
-                                <a href="#" className="flex gap-2 items-center">
+                                <a href="#" className="flex gap-2 items-center hover:underline hover:underline-offset-2">
                                     <span>{item.page}</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>
                                 </a>
