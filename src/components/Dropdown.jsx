@@ -1,7 +1,7 @@
 
 function Dropdown({ list }) {
-    return (
-        <article className="hidden absolute w-40 mt-4 h-fit rounded-md left-0 px-6 py-7 bg-text text-veryDarkBlue">
+        return (
+            <article className=" absolute w-40 mt-4 h-fit rounded-md left-0 px-6 py-7 bg-text text-veryDarkBlue">
             <ul className="flex flex-col gap-2">
                 {
                     list.map((item, index) => (
@@ -11,8 +11,7 @@ function Dropdown({ list }) {
                     ))
                 }
             </ul>
-        </article>
-    );
+        </article>);
 }
 
 
